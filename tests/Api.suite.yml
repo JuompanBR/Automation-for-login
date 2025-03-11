@@ -1,0 +1,9 @@
+actor: ApiTester
+step_decorators:
+    - \Codeception\Step\AsJson
+modules:
+    enabled:
+        - REST:
+            url: https://core.smobilpay.staging.maviance.info
+            depends: PhpBrowser
+            # part: Json you can explicity specify json or xml formats for the apis
