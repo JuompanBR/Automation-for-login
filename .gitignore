@@ -1,0 +1,22 @@
+# Logs and temp files
+/tests/_output/
+/tests/_log/
+
+# Composer dependencies
+/vendor/
+
+# Environment files
+.env
+.env.test
+.env.*
+
+# Codeception generated files
+/tests/_support/_generated/
+
+# IDE specific files
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
