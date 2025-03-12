@@ -7,7 +7,7 @@ php vendor/bin/codecept generate:suite api
 ```
 ### Create a new test
 ```
-php vendor/bin/codecept generate:cest api CreateUser
+php vendor/bin/codecept generate:cest api Login
 ```
 ### Running your codeception test
 ```
