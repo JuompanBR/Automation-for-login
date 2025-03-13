@@ -7,3 +7,18 @@ modules:
             url: www.smobilpay.staging.maviance.info
             depends: PhpBrowser
             # part: Json you can explicity specify json or xml formats for the apis
+environments:
+    smobilpay:
+        modules:
+            enabled:
+                - REST:
+                    url: www.smobilpay.staging.maviance.info
+                    depends: PhpBrowser
+                    # part: Json you can explicity specify json or xml formats for the apis
+    reqres:
+        modules:
+            enabled:
+                - REST:
+                    url: https://reqres.in
+                    depends: PhpBrowser
+                    # part: Json you can explicity specify json or xml formats for the apis

@@ -1,0 +1,29 @@
+{
+
+    "valid_testdata": {
+
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
+    },
+
+    "invalid_testdata": {
+
+        "no_email": {
+
+            "password": "pistol",
+            "messages": {
+
+                "error": "Missing email or username"
+            }
+        },
+
+        "no_password": {
+
+            "email": "eve.holt@reqres.in",
+            "messages": {
+
+                "error": "Missing password"
+            }
+        }
+    }
+}
