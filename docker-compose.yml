@@ -1,7 +1,7 @@
 services:
   codeception:  # Name of the service
     build: .  # Build Dockerfile in the current directory
-    container_name: codeception_api_tests  # Set a custom container name
+    container_name: dogsAPITest  # Set a custom container name
     volumes:
       - .:/var/www/html  # Sync local files with the container
     entrypoint: ["vendor/bin/codecept"]  # Default command to run Codeception

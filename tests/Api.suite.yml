@@ -4,7 +4,7 @@ step_decorators:
 modules:
     enabled:
         - REST:
-            url: www.smobilpay.staging.maviance.info
+            url: https://dog.ceo/api
             depends: PhpBrowser
             # part: Json you can explicity specify json or xml formats for the apis
 environments:
@@ -22,3 +22,8 @@ environments:
                     url: https://reqres.in
                     depends: PhpBrowser
                     # part: Json you can explicity specify json or xml formats for the apis
+    dogAPI:
+        modules:
+            enabled:
+                - REST:
+                    depends: PhpBrowser
